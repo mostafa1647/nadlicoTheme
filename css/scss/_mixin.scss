@@ -1,0 +1,83 @@
+@mixin heading-fontStyle {
+    font-size: fontSize("heading");
+    font-weight: weight(bold);
+}
+
+@mixin paragraph-style {
+    font-size: fontSize("paragraph");
+    font-weight: weight(regular);
+}
+
+@mixin flex($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin transition {
+    transition: all 0.3s ease;
+}
+
+@mixin xs {
+    @media screen and (max-width: $xs) {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media screen and (max-width: $sm) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media screen and (max-width: $md) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media screen and (max-width: $lg) {
+        @content;
+    }
+}
+
+@mixin min-md {
+    @media screen and (min-width: $md) {
+        @content;
+    }
+}
+
+@mixin xs-md {
+    @media (min-width: $xs) and (max-width: $md) {
+        @content;
+    }
+}
+
+@mixin min-md {
+    @media screen and (min-width: $md) {
+        @content;
+    }
+}
+
+@mixin min-lg {
+    @media screen and (min-width: $lg) {
+        @content;
+    }
+}
+
+@mixin md-lg {
+    @media (min-width: $md) and (max-width: $lg) {
+        @content;
+    }
+}
+
+@mixin border($width: 1px, $style: solid, $color: $borderColor, $hover: $borderColorHover, $radius: $borderRadius) {
+    border: $width $style $color;
+    border-radius: $radius;
+    @include transition;
+    &:hover, &:focus {
+        border-color: $hover;
+    }
+}

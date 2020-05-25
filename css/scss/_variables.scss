@@ -1,0 +1,66 @@
+
+$font-family: iranyekanFaNum, iranyekan, IRANSansFaNum ,IRANSans, tahoma, serif, sans-serif;
+$font-familyEnNum: iranyekan, IRANSans, tahoma, serif, sans-serif;
+$primary-backgroundColor: #fff;
+$links-color: #000;
+$links-colorHover: #283183;
+$links-2ndColorHover: #F74943;
+$backgroundColor: #F7F7F7;
+$borderColor: #D1D1D1;
+$borderColorFocus: #b6b6b6;
+$borderColorHover: #b6b6b6;
+$borderRadius: 5px;
+$primary-textColor: #000;
+$grey-textColor: #737373;
+$grey-textColorActive: #000;
+$secondary-textColor: #283183;
+$footerHeadingColor: #F74943;
+$lineHeight: 30px;
+$breadCrumbColor: #707070;
+$breadCrumbColorHover: #000;
+$placeHolderColor: #737373;
+$boxShadow: 0 3px 10px 0px #D1D1D1;
+
+//switch
+$switchBackground: #B4B4B4;
+$switchBackgroundChecked: #283183;
+$switchColor: #fff;
+$switchColorChecked: #fff;
+
+$addToCardHover: #bf1b15;
+$buyBtnColorHover: #2a0441;
+$paragraphColor: #4E4E4E;
+$formColor: #828282;
+$panelHoverText: #4A0675;
+$panelHoverBack: #A989BE;
+$iconColor: #959595;
+$tableColorOdd: #F9FAFB;
+
+$font-weights: (
+    "regular": 300,
+    "medium": 500,
+    "bold": 700,
+    "verybold": 800
+);
+
+$font-size: (
+    "heading": 24px,
+    "paragraph": 16px,
+    "xs": 0.6em,
+    "s": 0.8em,
+    "m": 1em,
+    "l": 1.2em,
+    "xl": 1.5em,
+    "xxl": 2em,
+    "bannerHeading": 2.9em,
+    "productsTitles": 0.9em
+);
+
+//media queries variables
+
+$lg: 1200px;
+$md: 992px;
+$sm: 768px;
+$xs: 576px;
+
+$custom1: 1100px;

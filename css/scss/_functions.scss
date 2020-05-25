@@ -1,0 +1,7 @@
+@function weight($weight-name) {
+  @return map_get($font-weights, $weight-name);
+}
+
+@function fontSize($size-name) {
+  @return map_get($font-size, $size-name);
+}
